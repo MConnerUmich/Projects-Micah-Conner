@@ -1,4 +1,8 @@
-# Projects-Micah-Conner
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,8 +14,10 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Project Portfolio</h1>
-        <p>Showcasing finance and economics projects developed during my studies and internship experiences.</p>
+        <div class="container">
+            <h1>Micah Conner</h1>
+            <p>Finance & Economics Student | J.P. Morgan Corporate Investment Bank Intern</p>
+        </div>
     </header>
     <nav>
         <ul>
@@ -20,7 +26,7 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <section id="projects">
+    <section id="projects" class="container">
         <h2>Projects</h2>
         <p>Explore the projects I've worked on in finance and economics:</p>
         <ul>
@@ -29,7 +35,7 @@
             <li><a href="project3.html">Project 3: Market Volatility Studies</a> - Research on the factors influencing market volatility.</li>
         </ul>
     </section>
-    <section id="skills">
+    <section id="skills" class="container">
         <h2>Skills</h2>
         <p>I have developed a range of skills throughout my coursework and internship:</p>
         <ul>
@@ -40,7 +46,7 @@
             <li>Data Visualization</li>
         </ul>
     </section>
-    <footer id="contact">
+    <footer id="contact" class="container">
         <h2>Contact Me</h2>
         <p>If you would like to discuss any projects or collaborate, feel free to reach out!</p>
         <p>Email: <a href="mailto:micah.conner@email.com">micah.conner@email.com</a></p>
