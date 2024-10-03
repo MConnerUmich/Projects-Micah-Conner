@@ -1,0 +1,86 @@
+/* Reset box-sizing for consistent layout */
+* {
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Times New Roman', serif; /* Font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f0f0f0; /* Light grey background */
+    color: #333; /* Dark grey text color */
+}
+
+/* Container styling */
+.container {
+    max-width: 800px; /* Max width for content */
+    margin: auto; /* Center the container */
+    padding: 20px; /* Padding inside the container */
+}
+
+/* Header styling */
+header {
+    background: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 40px 20px; /* Padding */
+    text-align: center; /* Center text */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect for depth */
+}
+
+/* Navigation styling */
+nav {
+    background: #333; /* Dark grey background */
+    padding: 10px 0; /* Padding */
+}
+
+/* Navigation list styling */
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+/* Navigation list items styling */
+nav ul li {
+    display: inline; /* Display inline */
+    margin: 0 15px; /* Margin between items */
+}
+
+/* Navigation link styling */
+nav a {
+    color: #fff; /* White text for links */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold text */
+}
+
+/* Navigation link hover effect */
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Section styling */
+section {
+    margin: 20px 0; /* Margin between sections */
+    padding: 20px; /* Padding inside sections */
+    background: white; /* White background for sections */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Heading styling */
+h1, h2 {
+    color: #000; /* Black for headings */
+}
+
+/* Footer styling */
+footer {
+    text-align: center; /* Center text in footer */
+    padding: 20px 0; /* Padding */
+    background: #333; /* Dark grey background */
+    color: #fff; /* White text */
+}
+
+/* Footer link styling */
+footer a {
+    color: #fff; /* White text for footer links */
+}
